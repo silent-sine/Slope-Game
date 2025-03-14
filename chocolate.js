@@ -1,10 +1,10 @@
 document.body.innerHTML = `
   <head>
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="TemplateData/unityloader41.js"></script>
+    <script src="https://silent-sine.github.io/Slope-Game/TemplateData/UnityProgress.js"></script>
+    <script src="https://silent-sine.github.io/Slope-Game/TemplateData/unityloader41.js"></script>
     <script>
-        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/slope.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
+        var gameInstance = UnityLoader.instantiate("gameContainer", "https://silent-sine.github.io/Slope-Game/Build/slope.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2541434264715219"
      crossorigin="anonymous"></script>
