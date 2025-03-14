@@ -1,6 +1,6 @@
 document.body.innerHTML = `
   <head>
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="https://silent-sine.github.io/Slope-Game/TemplateData/style.css">
     <script src="https://silent-sine.github.io/Slope-Game/TemplateData/UnityProgress.js"></script>
     <script src="https://silent-sine.github.io/Slope-Game/TemplateData/unityloader41.js"></script>
     <script>
